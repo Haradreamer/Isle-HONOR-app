@@ -6,13 +6,22 @@ An independent Android project by **Haradreamer**, designed primarily for HONOR 
 
 ## Download
 
-**Latest verified production build:** Isle **2.2.5** (19 November 2026).
+**Latest production version prepared:** Isle **2.3.0** (19 November 2026).
 
 ➡️ **[GitHub Releases](https://github.com/Haradreamer/Isle-HONOR-app/releases)**
 
-**Release publication status:** The 2.2.5 build was compiled successfully in the private development repository, but its public **signed APK has not yet been attached**. A release is not downloadable here until an APK asset appears under Releases. Do not install unsigned build artifacts or third-party repacks.
+**Downloads:** The signed **2.2.5** APK is available in [GitHub Releases](https://github.com/Haradreamer/Isle-HONOR-app/releases/tag/v2.2.5). **2.3.0** has been prepared and signed, but its public GitHub Release APK has **not yet been attached**. Until the 2.3.0 APK appears under Releases, use the published 2.2.5 package or the developer's official community links. Do not install unsigned artifacts or third-party repacks.
 
 > This public repository is the official **download, documentation and issue-tracking page**. Development source code and private signing keys are kept in a separate private repository. No private credentials will be published here.
+
+## What's new in 2.3.0
+
+- Detect HONOR **CN / Global** SystemUI variant at application startup (not based on the device language or SIM country).
+- Keep the existing CN Magic Capsule notification behavior.
+- Apply a separate notification-content compatibility profile on Global firmware, including filled secondary text, adjusted large-icon handling and a fallback tap action when no source action exists.
+- Retain the existing event handling, notification permissions and privacy behavior.
+
+The Global adjustments are based on comparison of MagicOS 11 CN and Global system components. Compatibility varies by device and firmware; reports from additional devices are welcome.
 
 ## Features
 
