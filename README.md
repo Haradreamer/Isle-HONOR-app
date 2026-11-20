@@ -6,22 +6,24 @@ An independent Android project by **Haradreamer**, designed primarily for HONOR 
 
 ## Download
 
-**Latest production version prepared:** Isle **2.3.0** (19 November 2026).
+**Latest prepared production build:** Isle **2.4.0** (20 November 2026).
 
 ➡️ **[GitHub Releases](https://github.com/Haradreamer/Isle-HONOR-app/releases)**
 
-**Downloads:** The signed **2.2.5** APK is available in [GitHub Releases](https://github.com/Haradreamer/Isle-HONOR-app/releases/tag/v2.2.5). **2.3.0** has been prepared and signed, but its public GitHub Release APK has **not yet been attached**. Until the 2.3.0 APK appears under Releases, use the published 2.2.5 package or the developer's official community links. Do not install unsigned artifacts or third-party repacks.
+The signed **Isle-2.4.0-RELEASE.apk** (SHA-256: `2e8abaeb0bb93aaf83aff8ee3e6ce26775f96cad296002d226ee9830070c502f`) has been uploaded to a **draft GitHub release**. It will become publicly downloadable once the `v2.4.0` release is published. Until then, use the current published release.
 
-> This public repository is the official **download, documentation and issue-tracking page**. Development source code and private signing keys are kept in a separate private repository. No private credentials will be published here.
+> This public repository is for official downloads, documentation and issues. Development sources and private signing credentials are stored separately.
 
-## What's new in 2.3.0
+## What's new in 2.4.0
 
-- Detect HONOR **CN / Global** SystemUI variant at application startup (not based on the device language or SIM country).
-- Keep the existing CN Magic Capsule notification behavior.
-- Apply a separate notification-content compatibility profile on Global firmware, including filled secondary text, adjusted large-icon handling and a fallback tap action when no source action exists.
-- Retain the existing event handling, notification permissions and privacy behavior.
+- Experimental persistent native idle capsule with bounded recovery after notification removal, periodic registration checks and more reliable idle/event transitions.
+- Eight AOD clock styles through a unified editor; improved adaptive layout and dark/light theme appearance.
+- Keep settings scroll position and remove the text-size slider that could not affect native HONOR SystemUI capsules.
+- Preserve CN / Global detection and event handling introduced in Isle 2.3.0.
 
-The Global adjustments are based on comparison of MagicOS 11 CN and Global system components. Compatibility varies by device and firmware; reports from additional devices are welcome.
+**Note:** HONOR SystemUI controls native capsule visibility and swipe behavior. The always-on empty capsule remains experimental and requires device testing.
+
+[Detailed 2.4.0 release notes](RELEASE_NOTES_2.4.0.md)
 
 ## Features
 
