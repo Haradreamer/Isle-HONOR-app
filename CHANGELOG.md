@@ -1,5 +1,19 @@
 # Isle release history
 
+## 2.4.0 — 2026-11-20
+
+- Signed production APK `Isle-2.4.0-RELEASE.apk`, package `dev.haradreamer.capsule`, `versionCode=240`, `versionName=2.4.0`.
+- Original publication-signing certificate retained (compatible with previous releases signed with the same key).
+- Added experimental native idle-capsule mode, improved recovery, registration reconciliation and state transitions between IDLE and EVENT.
+- Unified AOD editor with eight clock styles, adaptive sizing, semantic theme colors and scroll retention.
+- Removed the ineffective native-capsule typography size control; improved guards for delayed updates.
+- Retained automatic CN / Global compatibility handling.
+- APK SHA-256: `2e8abaeb0bb93aaf83aff8ee3e6ce26775f96cad296002d226ee9830070c502f`.
+- **Publication status:** APK is uploaded to a GitHub draft release but release `v2.4.0` is not yet publicly published.
+- Note: Native capsule visibility and swipe handling depend on HONOR SystemUI; physical-device verification still needed.
+
+[Full release notes](RELEASE_NOTES_2.4.0.md)
+
 ## 2.3.0 — 2026-11-19
 - Release branch: `release/isle-2.3.0` in the private development repository.
 - Release build checks passed: structural checks, regression tests, translation audit, Android lint and minified release APK assembly.
