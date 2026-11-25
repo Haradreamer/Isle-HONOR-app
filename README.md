@@ -1,61 +1,59 @@
-# Isle for HONOR
+# 🔵 Isle
 
-**Isle brings supported app events and notifications into HONOR's Magic Capsule.**
+**Haradreamer Tools · Android · No root**
 
-An independent Android project by **Haradreamer**, designed primarily for HONOR smartphones running MagicOS. Isle can surface supported notification events, message updates, navigation, calls, timers, alarms and downloads in a compact capsule-like experience. Available features depend on the phone, system version, and permissions.
+[🇬🇧 English](README.md) · [🇷🇺 Русский](README.ru.md) · [📥 Download](../../releases/latest)
 
-## Download
+**Isle** extends HONOR's native Magic Capsule with supported app notifications, ongoing activities and additional AOD effects.
 
-**Latest prepared production build:** Isle **2.4.0** (20 November 2026).
+## ✨ Features
 
-➡️ **[GitHub Releases](https://github.com/Haradreamer/Isle-HONOR-app/releases)**
+- Supported messages, navigation, calls, timers, alarms and download progress in Magic Capsule.
+- Separate handling of short notifications and ongoing activities; configurable auto-hide for short notifications.
+- App selection, capsule outline and animation settings, additional AOD and lock-screen effects.
+- Light and dark themes; eight interface languages and system-language selection.
+- CN / Global adaptation; actual presentation depends on HONOR SystemUI, firmware and source apps.
 
-The signed **Isle-2.4.0-RELEASE.apk** (SHA-256: `2e8abaeb0bb93aaf83aff8ee3e6ce26775f96cad296002d226ee9830070c502f`) has been uploaded to a **draft GitHub release**. It will become publicly downloadable once the `v2.4.0` release is published. Until then, use the current published release.
+## 📥 Download
 
-> This public repository is for official downloads, documentation and issues. Development sources and private signing credentials are stored separately.
+**[Isle 3.0.3 (Build 309) — official signed APK](../../releases/latest)**
 
-## What's new in 2.4.0
+## 🆕 What's new in 3.0.3
 
-- Experimental persistent native idle capsule with bounded recovery after notification removal, periodic registration checks and more reliable idle/event transitions.
-- Eight AOD clock styles through a unified editor; improved adaptive layout and dark/light theme appearance.
-- Keep settings scroll position and remove the text-size slider that could not affect native HONOR SystemUI capsules.
-- Preserve CN / Global detection and event handling introduced in Isle 2.3.0.
+- Navigation, downloads and timers are no longer limited by short-notification auto-hide.
+- Improved activity start, update, completion, and recovery after service reconnection.
+- Fixed repeated outline animation during progress updates and incorrect landscape outline positioning.
+- Improved notification deduplication, cleanup, background processing and channel management.
+- Updated translations, Telegram and Boosty buttons.
 
-**Note:** HONOR SystemUI controls native capsule visibility and swipe behavior. The always-on empty capsule remains experimental and requires device testing.
+[Changelog](CHANGELOG.md) · [Full release notes](../../releases/tag/v3.0.3)
 
-[Detailed 2.4.0 release notes](RELEASE_NOTES_2.4.0.md)
+## 📱 Compatibility
 
-## Features
+Designed for HONOR smartphones with MagicOS and Magic Capsule. Primary test phone: HONOR Magic9 Pro Max (WKL-AN20), MagicOS 11. Other models and firmware require testing. The native capsule is controlled by HONOR SystemUI; additional AOD effects do not replace the system AOD.
 
-- Magic Capsule integration for supported notification events.
-- Message and ongoing-event handling with event-specific presentation.
-- Navigation, calls, alarms, timers and download-progress scenarios (availability varies by firmware and source app).
-- App selection, presentation settings and animations.
-- Optional/experimental edge-lighting and universal island features; their availability varies by release and device.
-- Eight interface languages: Russian, English, Simplified Chinese, Spanish, Brazilian Portuguese, Arabic, Turkish and Indonesian, plus follow-system selection.
+## ⚙️ Installation
 
-## Compatibility
+1. Install the official signed APK and open Isle.
+2. Follow the on-screen permission guide and select apps/events to monitor.
+3. Configure appearance and background operation as needed.
 
-Isle is primarily developed for HONOR MagicOS devices. **The primary development/test phone is HONOR Magic9 Pro Max (WKL-AN20), MagicOS 11.** Other HONOR models and firmware versions need independent testing.
+In-place updates require the same package name and signing certificate. Do not uninstall an existing version before checking a signature mismatch; uninstalling can remove settings.
 
-Magic Capsule is controlled in part by HONOR system components, so behavior cannot be guaranteed on every device or for every notification source. This app is not affiliated with HONOR or HUAWEI.
+## 🔐 Distribution & feedback
 
-## Installation
+This public repository distributes binaries, documentation and issues; private sources and signing keys are kept separately. Report model, region, MagicOS/Android version, Isle version and reproduction steps. Redact private notification contents.
 
-1. Download the **official signed APK** from a published GitHub Release.
-2. Install it and open Isle.
-3. Follow the on-screen setup: grant the permissions needed for your selected features (for example notification access, notification posting, display over other apps, or optional services).
-4. Select the apps/events to monitor and adjust your preferred appearance.
-5. Follow the app's startup/battery guidance if MagicOS stops background operation.
+## 🌐 Other Haradreamer Tools projects
 
-**Updating:** In-place installation is possible only when the existing installation uses the same package name **and signing certificate**. Older variants signed with a different key may need manual removal, which can delete app data. Back up your settings where supported.
+- 🟢 [MagicOS CN Tool](https://github.com/Haradreamer/Honor-Tools-CN) — HONOR configuration
+- 🟣 [AutoFace](https://github.com/Haradreamer/Honor-AutoFace) — Face confirmation
+- 🟠 [Magic Hub](https://github.com/Haradreamer/Magic-Hub-app) — Google gestures
 
-## Feedback and device testing
+## 💬 Community & support
 
-Please open an [Issue](https://github.com/Haradreamer/Isle-HONOR-app/issues) with your phone model, country/firmware version, MagicOS/Android version, Isle version, steps to reproduce, and relevant screenshots. Do not include passwords, private messages or other sensitive information.
+[Telegram](https://t.me/isle_universal) · [4PDA](https://4pda.to/forum/index.php?showtopic=1119615&view=findpost&p=145819882) · [Report a bug](../../issues) · [Boosty](https://boosty.to/haradreamer)
 
-## Support development
+Free independent project. Support is voluntary. Not affiliated with HONOR, HUAWEI or Google.
 
-Isle is independently developed and distributed free of charge. Optional voluntary support: [Boosty — Haradreamer](https://boosty.to/haradreamer).
-
-[Russian documentation / Документация на русском](README.ru.md) · [Changelog](CHANGELOG.md)
+**Haradreamer**
